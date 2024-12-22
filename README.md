@@ -33,35 +33,35 @@ Despite their strengths, these systems face limitations such as reliance on stat
 Addressing these limitations, our proposed system bridges the gap by offering a dynamic, adaptable, and secure platform for personalized medical recommendations, revolutionizing healthcare delivery.
  
 ## 2.2 LITERATURE SURVEY 
-# 
+
 IBM Watson Health
-•	Author/Developer: IBM Corporation
-•	Published Year: 2014
-•	Explanation: IBM Watson Health is a pioneering platform that leverages machine learning and natural language processing to analyze complex medical data, such as patient records, clinical guidelines, and scientific literature. It assists healthcare professionals in diagnosis and treatment planning by providing data-driven insights. Despite its advanced capabilities, Watson Health requires large datasets and substantial computational resources, which limit its accessibility for smaller healthcare institutions.
- Diabetes Management Systems
-•	Example System: Glucommander by Glytec
-•	Published Year: 2016
-•	Explanation: These systems focus on managing diabetes through continuous monitoring and predictive analytics. They analyze patient data, such as blood glucose levels, dietary intake, and activity patterns, to offer tailored recommendations for insulin dosage, meal planning, and exercise. Although effective for diabetes management, they often lack the flexibility to handle other chronic diseases or medical conditions.
+Author/Developer: IBM Corporation
+Published Year: 2014
+Explanation: IBM Watson Health is a pioneering platform that leverages machine learning and natural language processing to analyze complex medical data, such as patient records, clinical guidelines, and scientific literature. It assists healthcare professionals in diagnosis and treatment planning by providing data-driven insights. Despite its advanced capabilities, Watson Health requires large datasets and substantial computational resources, which limit its accessibility for smaller healthcare institutions.
+Diabetes Management Systems
+Example System: Glucommander by Glytec
+Published Year: 2016
+Explanation: These systems focus on managing diabetes through continuous monitoring and predictive analytics. They analyze patient data, such as blood glucose levels, dietary intake, and activity patterns, to offer tailored recommendations for insulin dosage, meal planning, and exercise. Although effective for diabetes management, they often lack the flexibility to handle other chronic diseases or medical conditions.
 Cancer Detection Platforms
-•	Example System: Google DeepMind's Breast Cancer Detection Model
-•	Published Year: 2020
-•	Explanation: Google DeepMind developed a model that uses image recognition algorithms to analyze mammograms for early detection of breast cancer. This platform has shown significant improvements in diagnostic accuracy compared to human radiologists. However, it is limited to radiology applications and is not a comprehensive medical recommendation system.
- Mobile Health Applications
-•	Example System: MyFitnessPal and Fitbit
-•	Published Year: Fitbit launched in 2007; MyFitnessPal acquired by Under Armour in 2015
-•	Explanation: These tools integrate with wearable devices to track health metrics like steps, calories, and heart rate. While excellent for promoting preventive care and healthy habits, they do not offer detailed medical-grade insights or personalized treatment plans for chronic conditions.
- Clinical Decision Support Systems (CDSS)
-•	Example System: Medscape Clinical Decision Support
-•	Published Year: 2009
-•	Explanation: Medscape CDSS provides healthcare providers with evidence-based recommendations for diagnosis and treatment. While highly accurate, these systems are rule-based and struggle to adapt to dynamic patient data, limiting their utility in personalized medicine.
+Example System: Google DeepMind's Breast Cancer Detection Model
+Published Year: 2020
+Explanation: Google DeepMind developed a model that uses image recognition algorithms to analyze mammograms for early detection of breast cancer. This platform has shown significant improvements in diagnostic accuracy compared to human radiologists. However, it is limited to radiology applications and is not a comprehensive medical recommendation system.
+Mobile Health Applications
+Example System: MyFitnessPal and Fitbit
+Published Year: Fitbit launched in 2007; MyFitnessPal acquired by Under Armour in 2015
+Explanation: These tools integrate with wearable devices to track health metrics like steps, calories, and heart rate. While excellent for promoting preventive care and healthy habits, they do not offer detailed medical-grade insights or personalized treatment plans for chronic conditions.
+Clinical Decision Support Systems (CDSS)
+Example System: Medscape Clinical Decision Support
+Published Year: 2009
+Explanation: Medscape CDSS provides healthcare providers with evidence-based recommendations for diagnosis and treatment. While highly accurate, these systems are rule-based and struggle to adapt to dynamic patient data, limiting their utility in personalized medicine.
 Epic Systems Corporation - Predictive Analytics Module
-•	Author/Developer: Epic Systems Corporation
-•	Published Year: 2015
-•	Explanation: Epic’s predictive analytics module is integrated into its electronic health record (EHR) system. It uses machine learning to identify at-risk patients, predict hospital readmissions, and support population health management. The system analyzes patient data from hospital records to provide actionable insights for healthcare providers. While effective in large-scale hospital settings, its reliance on hospital-specific data limits its broader applicability in personalized medicine.
+Author/Developer: Epic Systems Corporation
+Published Year: 2015
+Explanation: Epic’s predictive analytics module is integrated into its electronic health record (EHR) system. It uses machine learning to identify at-risk patients, predict hospital readmissions, and support population health management. The system analyzes patient data from hospital records to provide actionable insights for healthcare providers. While effective in large-scale hospital settings, its reliance on hospital-specific data limits its broader applicability in personalized medicine.
 Path AI - Pathology Analysis System
-•	Author/Developer: Path AI
-•	Published Year: 2017
-•	Explanation: Path AI uses machine learning to assist pathologists in diagnosing diseases, particularly cancer. It analyzes biopsy images to identify abnormalities and provide diagnostic support. The system reduces diagnostic errors and improves efficiency in pathology workflows
+Author/Developer: Path AI
+Published Year: 2017
+Explanation: Path AI uses machine learning to assist pathologists in diagnosing diseases, particularly cancer. It analyzes biopsy images to identify abnormalities and provide diagnostic support. The system reduces diagnostic errors and improves efficiency in pathology workflows
 ## 2.3 LITERATURE SURVEY SUMMARY 
   	 
 Future Direction 
