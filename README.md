@@ -1,5 +1,5 @@
 # Personalized-Medical-Recommendation-System-with-Machine-Learning
-                          INTRODUCTION 
+## INTRODUCTION 
 ## 1.1 OVERVIEW OF THE PROJECT 
  
 The integration of technology into healthcare has been transformative, with machine learning (ML) playing a pivotal role in driving innovation and efficiency. Personalized medicine represents a significant evolution in medical care, focusing on tailoring treatments to the unique characteristics of each individual, rather than adhering to the traditional “one-size-fits-all” approach. This transformation is especially critical given the diverse ways in which medical conditions manifest and respond to treatment across different patients.
@@ -33,7 +33,7 @@ Despite their strengths, these systems face limitations such as reliance on stat
 Addressing these limitations, our proposed system bridges the gap by offering a dynamic, adaptable, and secure platform for personalized medical recommendations, revolutionizing healthcare delivery.
  
 ## 2.2 LITERATURE SURVEY 
- 
+# 
 IBM Watson Health
 •	Author/Developer: IBM Corporation
 •	Published Year: 2014
