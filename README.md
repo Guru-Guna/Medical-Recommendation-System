@@ -186,72 +186,7 @@ Expanding the dataset to include global healthcare records will be another prior
 Future work will also explore optimizing the system for deployment on edge devices, increasing accessibility in low-resource settings. Addressing ethical concerns, such as equitable treatment, data governance, and regulatory compliance, will remain central. These advancements will ensure the system evolves into a robust, scalable, and globally impactful tool in personalized medicine.
 
 
-
-# Chapter 7
-
-# test1 
-print("Predicted Label :",svc.predict(X_test.iloc[0].values.reshape(1,-1)))
-print("Actual Label :",Y_test[0])      
-# test 2
-print("Predicted Label :",svc.predict(X_test.iloc[10].values.reshape(1,-1)))
-print("Actual Label :",Y_test[10])      
-sym_des=pd.read_csv("symtoms_df.csv")
-precautions=pd.read_csv("precautions_df.csv")
-workout=pd.read_csv("workout_df.csv")
-description=pd.read_csv("description.csv")
-medications=pd.read_csv("medications.csv")
-diets=pd.read_csv("diets.csv")
-
-# Model Prediction function
-def get_predicted_value(patient_symptoms):
-    input_vector = np.zeros(len(symptoms_dict))
-    for item in patient_symptoms:
-        input_vector[symptoms_dict[item]] = 1
-    return diseases_list[svc.predict([input_vector])[0]]
-def helper(dis):
-    desc = description[description['Disease'] == dis]['Description']
-    desc = " ".join([w for w in desc])
-
-    pre = precautions[precautions['Disease'] == dis][['Precaution_1', 'Precaution_2', 'Precaution_3', 'Precaution_4']]
-    pre = [col for col in pre.values]
-    med = medications[medications['Disease'] == dis]['Medication']
-    med = [med for med in med.values]
-    die = diets[diets['Disease'] == dis]['Diet']
-    die = [die for die in die.values]
-
-    wrkout = workout[workout['disease'] == dis] ['workout']
-    return desc,pre,med,die,wrkout
-# test 1
-symptoms=input("Enter your symptoms......")
-user_symptoms=[s.strip() for s in symptoms.split(',')]
-user_symptoms=[sym.strip("[]' '") for sym in user_symptoms]
-predicted_disease=get_predicted_value(user_symptoms)
-desc,pre,med,die,wrkout=helper(predicted_disease)
-
-# results
-print("=================predicted disease============")
-print(predicted_disease)
-print("=================description==================")
-print(desc)
-print("=================precautions==================")
-i = 1
-for p_i in pre[0]:
-    print(i, ": ", p_i)
-    i += 1
-print("=================medications==================")
-for m_i in med:
-    print(i, ": ", m_i)
-    i += 1
-print("=================workout==================")
-for w_i in wrkout:
-    print(i, ": ", w_i)
-    i += 1
-print("=================diets==================")
-for d_i in die:
-    print(i, ": ", d_i)
-    i += 1
- 
-# Chapter 8 
+# Chapter 7 
 
  
 APPENDIX 2 – SAMPLE OUTPUT
@@ -276,9 +211,9 @@ APPENDIX 2 – SAMPLE OUTPUT
  ![image](https://github.com/user-attachments/assets/8f7e73ce-7bb1-40a3-b6ec-0dd9e486da9f)
 
  
-Chapter 9 
+# Chapter 8
 
-REFERENCES 
+## REFERENCES 
 
 [1]	Lunshof, J. E., et al. (2014). "The Ethics of Personalized Medicine: A Review." Nature Reviews Genetics, 15(5), 360-367. doi:10.1038/nrg3737.
 [2]	Huang, Z., & Wang, Y. (2020). "Data Integration and Analysis of Multi-Omics Data: A Survey." Frontiers in Genetics, 11, 390. doi:10.3389/fgene.2020.00390.
